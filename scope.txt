@@ -1,0 +1,12 @@
+profiles incase people want to swap accounts for whatever reason
+
+grabs data from api 
+    tracks data and presents it all in one neat place
+
+has a sort of database of Ideas as to how to improve
+    this database is sorted into layers of gameplay level
+
+regimen for improvement based on current layer
+    A certain amount of games focussing a specific idea, this is a daily checklist with optional extra games for people with more time
+
+this app should at some point be able to look at stats and give a recommended daily game for a certain idea

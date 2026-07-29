@@ -1,0 +1,66 @@
+Layer 1:
+    Absolute Basics!!
+        learn character kit in practice range
+        dont run down main
+        use walls for cover
+
+    Basics:
+        Micropositioning
+        Macropositioning
+        Cooldown Usage (using movement cooldowns as escape tools)
+        Awareness
+
+Layer 2:
+    Cooldown Usage (using movement cooldowns to grab confirmable kills)
+    Character specific peekers advantage
+    Engagement timing
+    Risk assessment
+    Map based character picks
+
+Layer 3:
+    Team rotations
+    Coordination
+    Comp building
+    Counterpicking
+    Ult Tracking
+
+
+
+Basic Concepts to hammer down:
+    Layer 1:
+        Save movement cooldowns for escape
+        stick to the side of your team (not front or center)
+        Use whatever cover is available to you
+        Try to get to high ground
+        Try to pay attention to where the enemy players are at all times
+        Choose a character you enjoy and are comfortable with
+        Never swap characters, learn the one you feel the most comfortable with and have the most fun playing (have a backup option for bans)
+        Basic target priority(if squishies and tank are on your screen and able to be shot from where you are, shoot the squishies)
+
+        (turn off comms)
+
+    Layer 2:
+        Use movement cooldowns for kills only when they are absolutely confirmable
+        Try to get beside or behind the enemy team, staying hidden as much as possible when rotating positions
+        Use walls and obstacles to try and section off players so that only 1 player can see you at any given movement
+        Only take hard engagements whenever the enemy team is not paying attention to you, or when people are completely separated from team
+        Make note of who is the most dangerous on both teams at any given movement
+        Only swap characters when the map becomes detremental
+        Pay attention to pings and ping things of note
+        Try to pay attention to where your own teamates are at all times
+
+    Layer 3:
+        Pick characters from your character pool that complements the goals of your teamates picks on whichever map you are playing
+        Try to keep as much of your hitbox hidden from view as possible at any given movement
+        Only peel when doing so advances your positions
+        Rotate your position to help facilitate the goals of your teamates
+        Counterpick only when the map allows for it
+        Use comms to coordinate plans with your teamates
+        Assess and make a mental note of all risks when making any play
+
+    Layer 4: 
+        Track the ult charge of at least 1 enemy (whichever one(s) have the strongest or most beneficial for the circumstances ult)
+        Have a strong understanding of value layering:
+            the concept of how much value both teams are either able to put out on the field or how much they already have on the field
+            determine how valuable a resource can be spent to either equalize value or flip value in your favour
+        Use your risk assessment from Layer 3 to help make educated decisions on what plays to make and when, evaluating risk based off of your current skill level

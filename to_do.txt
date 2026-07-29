@@ -1,0 +1,5 @@
+show time of last logged data
+
+
+Suggestions:
+    Show changes in performance in profile card stats
