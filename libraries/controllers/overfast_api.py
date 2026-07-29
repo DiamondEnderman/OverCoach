@@ -25,10 +25,16 @@ class Ranks:
         url = f"https://overfast-api.tekrop.fr/players/{id}/summary"
 
         response = requests.get(url, timeout=10)
-        terminal_encoding = sys.stdout.encoding or "utf-8"
+
+        if sys.stdout and hasattr(sys.stdout, "encoding") and sys.stdout.encoding:
+            terminal_encoding = sys.stdout.encoding
+        else:
+            terminal_encoding = "utf-8"
 
         safe_tag = self.battletag.encode(terminal_encoding, errors = "replace").decode(terminal_encoding)
-        print(f"Pinging Overfast Api for {safe_tag} player summary")
+
+        if sys.stdout:
+            print(f"Pinging Overfast Api for {safe_tag} player summary")
 
         response.raise_for_status()
         return response.json()
@@ -85,7 +91,9 @@ class CareerStats:
         url = f"https://overfast-api.tekrop.fr/players/{id}/stats/career?gamemode=competitive"
 
         response = requests.get(url, timeout=10)
-        print(f"Pinging Overfast Api for {self.battletag} career stats")
+
+        if sys.stdout:
+            print(f"Pinging Overfast Api for {self.battletag} career stats")
 
         response.raise_for_status()
 

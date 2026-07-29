@@ -1,4 +1,6 @@
 import flet
+import sys
+import os
 
 from libraries.consts import AppConfig as AppConfig
 
@@ -47,6 +49,12 @@ if __name__ == "__main__":
     filecontroller.initialize_system_folders()
     print("Application folders successfully initialized.")
 
+    if getattr(sys, "frozen", False):
+        base_dir = getattr(sys, "_MEIPASS", os.path.dirname(sys.executable))
+        assets_path = os.path.join(base_dir, "assets")
+    else:
+        assets_path = "assets"
+
     GitChallenges.sync()
 
-    flet.run(main=app, assets_dir="assets")
+    flet.run(main=app, assets_dir=assets_path)
