@@ -7,6 +7,7 @@ import libraries.controllers.launcher as launcher
 
 from libraries.ui.dashboard.challenge_card import challenge_card
 from libraries.ui.dashboard.profile_card import profile_card
+from libraries.ui.dashboard.settings_menu import SettingMenu
 
 IS_TEST = False
 
@@ -50,7 +51,7 @@ def _build_body() -> flet.Row:
         spacing = 20
     )
 
-def _build_footer() -> flet.Row:
+def _build_footer(page: flet.Page) -> flet.Row:
     button_height = 60
     font_size = 24
     
@@ -62,9 +63,9 @@ def _build_footer() -> flet.Row:
             value = "Settings",
             size = font_size,
             weight = Text.BOLD,
-            color = Colors.WHITE
+            color = Colors.WHITE,
         ),
-
+        on_click = lambda: SettingMenu.open(page)
     )
 
     launch_btn = flet.Button(
@@ -116,7 +117,7 @@ def _build_footer() -> flet.Row:
 
 def run(page: flet.Page):
     layout = flet.Column(
-        controls = [_build_header(), _build_body(), _build_footer()],
+        controls = [_build_header(), _build_body(), _build_footer(page)],
         alignment = flet.MainAxisAlignment.CENTER,
         spacing = 20
     )
