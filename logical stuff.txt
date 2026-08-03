@@ -48,6 +48,8 @@ Basic Concepts to hammer down:
         Only swap characters when the map becomes detremental
         Pay attention to pings and ping things of note
         Try to pay attention to where your own teamates are at all times
+        Try to justify why you choose the positions you do, if you can't come up with one, it is likely a bad position
+        Plan out engagements, try to make sure you have a goal in mind for each position and why you would want to be there
 
     Layer 3:
         Pick characters from your character pool that complements the goals of your teamates picks on whichever map you are playing

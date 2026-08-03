@@ -10,3 +10,10 @@ regimen for improvement based on current layer
     A certain amount of games focussing a specific idea, this is a daily checklist with optional extra games for people with more time
 
 this app should at some point be able to look at stats and give a recommended daily game for a certain idea
+
+
+Ideas:
+    Once all challenges are completed, users self rate and then the next days challenge amounts are assigned based on their self rotating
+    dynamic challenge suggestion (1 to 2) based on stats
+    
+    Cards for each category in the challenge list, game amount dynamic (able to be changed based on both self rating and stats)

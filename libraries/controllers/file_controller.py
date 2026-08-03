@@ -24,6 +24,7 @@ _REQUIRED_FOLDERS = [
     "cache",
     "logs",
     "challenges",
+    "learning_db"
 ]
 
 SYSTEM_PATHS = {

@@ -52,3 +52,16 @@ class GitChallenges:
 
         except Exception as err:
             print(f"An unexpected error occured: {err}")
+
+class GitLearning:
+    local_db_path = file_controller.SYSTEM_PATHS["learning_db"]
+
+    files_to_sync = [
+        "beginner.json"
+    ]
+
+    base_url = "https://raw.githubusercontent.com/DiamondEnderman/OverCoach-Learning-Database/refs/heads/main/"
+
+    @classmethod
+    def get_local_version(cls):
+        json_path = os.path.join(cls.local_db_path, "version.json")
