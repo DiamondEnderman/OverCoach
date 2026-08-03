@@ -15,5 +15,6 @@ this app should at some point be able to look at stats and give a recommended da
 Ideas:
     Once all challenges are completed, users self rate and then the next days challenge amounts are assigned based on their self rotating
     dynamic challenge suggestion (1 to 2) based on stats
+    1 character specifc challenge
     
     Cards for each category in the challenge list, game amount dynamic (able to be changed based on both self rating and stats)
