@@ -1,0 +1,3 @@
+If you click the create profile button many times it will do multiple popups saying profile name already used:
+    this is because it takes time for the overfast api stuff to do its things
+    limit the click so that it cant be clicked more than once or have the api stuff happen after the window is closed then refresh a second time
