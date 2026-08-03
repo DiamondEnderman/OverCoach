@@ -5,7 +5,7 @@ import os
 from libraries.consts import AppConfig as AppConfig
 
 import libraries.controllers.file_controller as filecontroller
-from libraries.controllers.github_manager import GitChallenges
+from libraries.controllers.github_manager import sync_all
 import libraries.debug.crash_logs as crashlogs
 
 from libraries.controllers.setting_manager import CONFIG
@@ -55,6 +55,6 @@ if __name__ == "__main__":
     else:
         assets_path = "assets"
 
-    GitChallenges.sync()
+    sync_all()
 
     flet.run(main=app, assets_dir=assets_path)
