@@ -3,11 +3,14 @@ from libraries.consts import Colors as Colors
 from libraries.consts import UI as UI
 from libraries.consts import Text as Text
 from libraries.controllers.setting_manager import CONFIG
+
 import libraries.controllers.launcher as launcher
 
 from libraries.ui.dashboard.challenge_card import challenge_card
 from libraries.ui.dashboard.profile_card import profile_card
+
 from libraries.ui.dashboard.settings_menu import SettingMenu
+from libraries.ui.learn.main import LearnMenu
 
 IS_TEST = False
 
@@ -94,7 +97,7 @@ def _build_footer(page: flet.Page) -> flet.Row:
             text_align = flet.TextAlign.CENTER,
             
         ),
-        on_click = lambda e: launcher.launch_overwatch()
+        on_click = lambda: launcher.launch_overwatch(page)
     )
 
     learn_btn = flet.Button(
@@ -105,8 +108,9 @@ def _build_footer(page: flet.Page) -> flet.Row:
             value = "Learn",
             size = font_size,
             weight = Text.BOLD,
-            color = Colors.WHITE
-        )
+            color = Colors.WHITE,
+        ),
+        on_click = lambda: LearnMenu.open(page)
     )
 
     return flet.Row(
