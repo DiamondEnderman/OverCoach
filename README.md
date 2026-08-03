@@ -4,7 +4,9 @@
 
 OverCoach is not a replacement for 1v1 coaching, but aims to help players self-coach in between proper coaching sessions (or even just to learn on their own).
 
-**Python is required to run the application**
+**The latest version of Python is required to run the application**
+
+Download Link: https://www.python.org/downloads/
 
 ---
 
