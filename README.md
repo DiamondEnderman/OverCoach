@@ -27,9 +27,10 @@ Since OverCoach is open-source, you can easily run and compile it on your own ma
     git clone https://github.com/DiamondEnderman/OverCoach-Challenges.git
     ```
 2.  **Install Dependencies:**
-    Make sure you have Python installed, then install the required GUI and network libraries:
+    Make sure you have Python installed, then install the required GUI and network libraries, and my open-source appdata manager:
     ```bash
     pip install flet requests
+    pip install git+https://github.com/DiamondEnderman/appdata-manager.git
     ```
 3.  **Download Your Local Assets:**
     Run the automated bulk downloader script to fetch your local Overwatch 2 hero portraits:
