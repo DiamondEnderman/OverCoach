@@ -5,3 +5,4 @@ dist/
 .flet/
 push_update.bat
 assets/
+.vscode/
