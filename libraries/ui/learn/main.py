@@ -86,11 +86,20 @@ class LearnMenu:
     LEARN_DIALOG = flet.AlertDialog(
         title=flet.Row(
             controls=[
-                TextTemplate.create("Learn", "h1"),
+                flet.Container(width = 48),
+                flet.Text(
+                    value = "Learn",
+                    size = 36,
+                    weight = Text.BOLD,
+                    color = Colors.BLUE,
+                    expand = True,
+                    text_align = flet.TextAlign.CENTER
+                ),
                 flet.IconButton(
                     icon=flet.Icons.CLOSE,
                     icon_color=Colors.WHITE,
                     on_click=close,
+                    width = 48
                 ),
             ],
             alignment=flet.MainAxisAlignment.SPACE_BETWEEN,
